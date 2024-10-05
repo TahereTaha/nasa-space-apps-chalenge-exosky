@@ -20,7 +20,7 @@
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 .presentation .swiper-slide::after {
