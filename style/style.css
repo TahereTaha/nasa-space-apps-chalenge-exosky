@@ -113,7 +113,7 @@ body {
     border-radius: 10px;
 }
 
-#what_do_we_do p{
+#what_do_we_do p {
     font-size: 1.2rem;
     text-align: justify;
 }
@@ -138,29 +138,33 @@ body {
 }
 
 .team {
-            text-align: center;
-            margin: 40px 0;
-        }
-        .team-member {
-            margin-bottom: 20px;
-        }
-        .team-member img {
-            width: 100%;
-            height: auto;
-            border-radius: 50%;
-        }
-        .team-member h5 {
-            margin-top: 10px;
-        }
-        .team-member p {
-            margin: 5px 0;
-        }
+    text-align: center;
+    margin: 40px 0;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-member h5 {
+    margin-top: 10px;
+}
+
+.team-member p {
+    margin: 5px 0;
+}
 
 @keyframes twinkle {
     0% {
         opacity: 0.5;
     }
-    
+
     100% {
         opacity: 1;
     }
