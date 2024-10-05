@@ -5,6 +5,14 @@ body {
     overflow-x: hidden;
 }
 
+.astronauts {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .astronaut-item {
+            margin-bottom: 20px;
+        }
+
 .navbar {
     background-color: transparent;
 }
