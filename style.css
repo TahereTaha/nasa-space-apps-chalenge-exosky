@@ -24,6 +24,7 @@ body {
 .nav-item .btn-outline-primary:hover {
     background-color: purple;
     border-color: purple;
+    color: #fff;
 }
 
 .navbar-brand img {
