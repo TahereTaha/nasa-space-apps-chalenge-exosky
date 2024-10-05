@@ -13,7 +13,7 @@ body {
     color: #fff;
     font-weight: 700;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .nav-item .btn-outline-primary {
@@ -163,7 +163,7 @@ footer{
 }
 
 footer a {
-    font-size: 50px;
+    font-size: 30px;
     transition: color 0.3s;
 }
 
