@@ -137,6 +137,25 @@ body {
     margin-bottom: 20px;
 }
 
+.team {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .team-member {
+            margin-bottom: 20px;
+        }
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .team-member h5 {
+            margin-top: 10px;
+        }
+        .team-member p {
+            margin: 5px 0;
+        }
+
 @keyframes twinkle {
     0% {
         opacity: 0.5;
