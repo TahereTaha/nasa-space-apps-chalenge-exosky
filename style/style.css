@@ -95,6 +95,10 @@ body {
     border-radius: 10px;
 }
 
+#what_do_we_do {
+    font-size: 1.5rem;
+}
+
 .about img {
     width: 100%;
     border-radius: 10px;
