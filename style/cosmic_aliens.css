@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#cosmic_aliens {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+/* Estilos de cada sección comprimida */
+#cosmic_aliens .section {
+    width: 10%; /* Comprimidas inicialmente */
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: width 0.5s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Imágenes de fondo para cada sección */
+#cosmic_aliens .section-1 {
+    background-image: url('../media/luzor.jpg');
+}
+
+#cosmic_aliens .section-2 {
+    background-image: url('../media/nebulor.jpg');
+}
+
+/* Estado expandido */
+#cosmic_aliens .section.expanded {
+    width: 90%; /* Se expande al hacer clic */
+}
+
+/* Capas oscuras para mejor visibilidad del texto */
+#cosmic_aliens .section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Mostrar contenido cuando la sección está expandida */
+#cosmic_aliens .section.expanded .overlay {
+    opacity: 1;
+}
+
+#cosmic_aliens .section .overlay h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#cosmic_aliens .section .overlay p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 40px;
+}
