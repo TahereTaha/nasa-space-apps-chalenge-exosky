@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
 }
 
-.container-fluid{
+.container-fluid {
     padding-left: 0%;
     padding-right: 0%;
     margin-left: 0%;
@@ -29,6 +29,86 @@ body {
     border-radius: 50%;
     animation: twinkle 1s infinite alternate;
 }
+
+/*-------------the style of humburger lines ------------*/
+
+.burger {
+    display: none;
+}
+
+/*----------------For mobile screen / small screen----------------*/
+@media only screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .burger {
+        display: block;
+        margin-right: 30px;
+    }
+    
+    [class*="line-"] {
+        width: 30px;
+        height: 4px;
+        background-color: #333;
+        margin: 5px 0;
+        border-radius: 10px;
+        transition: all 0.2s ease;
+    }
+
+    .nav {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        position: absolute;
+        transform: translateX(100%);
+        top: 60px;
+        width: 1000%;
+        height: calc(100% - 70px);
+        flex-direction: column;
+        justify-content: flex-start;
+        border-top: 1px solid #e5e5e5;
+        overflow: hidden;
+    }
+
+    .nav-item .btn-outline-primary {
+        padding: 25px 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        border: 0;
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: bold;
+        height: auto;
+        /* border-bottom: 1px solid #e5e5e5; */
+    }
+
+    .nav-item .btn-outline-primary:hover {
+        background-color: purple;
+        border-color: purple;
+    }
+
+    /*-------The style of humburger lines rototes when humburger div is click-----------*/
+    .horizontal-line {
+        display: none;
+    }
+
+    .diagonal-line-1 {
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        transform: rotate(135deg);
+        margin-top: 8px;
+    }
+
+    .diagonal-line-2 {
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        transform: rotate(-135deg);
+        margin-top: -9px;
+    }
+}
+
 
 .navbar {
     background-color: transparent;
