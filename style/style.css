@@ -30,6 +30,64 @@ body {
     animation: twinkle 1s infinite alternate;
 }
 
+.cohete-button {
+    background-color: purple;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .cohete-button:hover {
+    background-color: transparent;
+    color: purple;
+  }
+  
+  /* .cohete-button i {
+    margin-right: 10px;
+  } */
+  
+  /* .cohete-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent #ff4500 transparent;
+    z-index: -1;
+  }
+  
+  .cohete-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent transparent transparent;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  } */
+  
+  .cohete-button:hover::after {
+    opacity: 1;
+  }
+
 /*-------------the style of humburger lines ------------*/
 
 .burger {
