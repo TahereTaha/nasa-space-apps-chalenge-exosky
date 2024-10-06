@@ -1,0 +1,41 @@
+#demo-container {
+    text-align: center; /* Centramos el contenido */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con opacidad */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamaño del título */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+p {
+    font-size: 1.2rem; /* Tamaño del texto */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+#game-player {
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+#controls {
+    display: flex; /* Usar flexbox para alinear botones */
+    justify-content: center; /* Centrar botones */
+}
+
+button {
+    background-color: purple; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 0 10px; /* Espaciado entre botones */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición de color */
+}
+
+button:hover {
+    background-color: #5e0b67; /* Color al pasar el mouse */
+}
