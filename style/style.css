@@ -49,7 +49,7 @@ body {
     background-color: transparent;
     color: purple;
   }
-    
+
   .cohete-button:hover::after {
     opacity: 1;
   }
@@ -198,6 +198,12 @@ body {
     margin: 2rem 0;
     font-size: 2rem;
     font-weight: 700;
+}
+
+.swiper-pagination-bullet-active{
+    color: purple !important;
+    font-weight: bold !important;
+    text-shadow: #000 10px 10px 10px;
 }
 
 .features,

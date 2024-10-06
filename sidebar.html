@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cohete Sidebar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sidebar en forma de cohete -->
+    <div id="rocketSidebar" class="sidebar">
+        <div class="cone"></div> <!-- Parte superior del cohete -->
+        <div class="body">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeRocket()">×</a>
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
+        </div>
+        <div class="fins"></div> <!-- Alitas del cohete -->
+    </div>
+
+    <!-- Contenido principal -->
+    <div id="main">
+        <button class="openbtn" onclick="openRocket()">🚀 Abrir Cohete</button>
+        <h2>Página Principal</h2>
+        <p>Haz clic en el botón de arriba para desplegar el sidebar con forma de cohete.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
