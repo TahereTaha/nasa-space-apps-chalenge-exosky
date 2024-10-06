@@ -49,41 +49,7 @@ body {
     background-color: transparent;
     color: purple;
   }
-  
-  /* .cohete-button i {
-    margin-right: 10px;
-  } */
-  
-  /* .cohete-button::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 10px 20px 10px;
-    border-color: transparent transparent #ff4500 transparent;
-    z-index: -1;
-  }
-  
-  .cohete-button::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 10px 20px 10px;
-    border-color: transparent transparent transparent transparent;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  } */
-  
+    
   .cohete-button:hover::after {
     opacity: 1;
   }
