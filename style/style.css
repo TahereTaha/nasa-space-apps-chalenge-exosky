@@ -5,6 +5,13 @@ body {
     overflow-x: hidden;
 }
 
+.container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
 #stars {
     position: fixed;
     width: 100%;
@@ -113,9 +120,19 @@ body {
     border-radius: 10px;
 }
 
-#what_do_we_do p {
-    font-size: 1.2rem;
+/* #what_do_we_do p {
     text-align: justify;
+} */
+
+#what_do_we_do p {
+    font-size: 2rem;
+    text-align: justify;
+    padding: 1rem 2rem;
+}
+
+#what_do_we_do img {
+    width: 100%;
+    height: auto;
 }
 
 .about img {
